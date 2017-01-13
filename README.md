@@ -31,12 +31,12 @@ Add `prop-has-no-shadow-declaration` to the plugins section of your `.eslintrc` 
 ```
 
 
-Then configure the rules you want to use under the rules section.
+Then add the following to your rules section.
 
 ```json
 {
     "rules": {
-        "prop-has-no-shadow-declaration/rule-name": 2
+        "prop-has-no-shadow-declaration/rule": 1
     }
 }
 ```

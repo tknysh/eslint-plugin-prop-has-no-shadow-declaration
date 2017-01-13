@@ -8,7 +8,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-const rule = require("../../../lib/rules/prop-has-no-shadow-declaration"),
+const rule = require("../../../lib/rules/rule"),
 
     RuleTester = require("eslint").RuleTester;
 
