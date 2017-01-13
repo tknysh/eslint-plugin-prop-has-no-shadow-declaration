@@ -1,22 +1,30 @@
 {
   "name": "eslint-plugin-prop-has-no-shadow-declaration",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "This plugin prevents to name React component props with the same name as shadow functions or variables",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "tknysh",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/tknysh/eslint-plugin-prop-has-no-shadow-declaration.git"
+  },
+  "author": {
+    "name" : "Taras Knysh",
+    "email" : "silver11silver@gmail.com"
+  },
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests --recursive"
   },
   "dependencies": {
+    "eslint": "~3.9.1",
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
-    "eslint": "~3.9.1",
+    "babel-eslint": "^7.1.1",
     "mocha": "^3.1.2"
   },
   "engines": {
